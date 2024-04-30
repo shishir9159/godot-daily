@@ -1,0 +1,32 @@
+{
+  "autosave": "on_window_change",
+  "disable_ai": true,
+  "format_on_save": "on",
+  "autoscroll_on_clicks": true,
+  "close_on_file_delete": true,
+  "soft_wrap": "editor_width",
+  "show_whitespaces": "selection",
+  "toolbar": {
+    "breadcrumbs": false
+  },
+  "agent_panel": {
+    "button": false
+  },
+  "lsp": {
+    "gdscript": {
+      "binary": {
+        "arguments": ["127.0.0.1", "6005"]
+      }
+    }
+  },
+  "languages": {
+    "GDScript": {
+      "formatter": {
+        "external": {
+          "command": "gdformat",
+          "arguments": ["-"]
+        }
+      }
+    }
+  }
+}
